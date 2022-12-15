@@ -11,7 +11,7 @@ steps:
       password:
         from_secret: docker_password
       registry: registry.hub.docker.com
-      repo: registry.hub.docker.com/tyleragostino/oilmonitor
+      repo: registry.hub.docker.com/tyleragostino/oil_monitor
       tags: latest
       build_args: BUILDKIT_INLINE_CACHE=1
 
